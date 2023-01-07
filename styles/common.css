@@ -44,7 +44,6 @@ body {
   font-weight: 900;
   font-size: 22px;
   line-height: 27px;
-  /* identical to box height */
   letter-spacing: .03em;
   text-transform: var(--primary-text-transform);
   color: #F2F2F2;
@@ -198,4 +197,3 @@ body {
 .socials__item:not(:last-child) {
   margin-right: 12px;
 }
-
