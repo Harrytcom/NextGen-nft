@@ -1,0 +1,65 @@
+/* группировка кнопок */
+.btn-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-group__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* стили для кнопок по отдельности*/
+.btn {
+  display: inline-flex;
+  min-height: 53px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 40px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.btn--block {
+  display: flex;
+  width: 100%;
+}
+
+.btn--colored {
+  background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
+}
+
+.btn--solid {
+  background: var(--primary-bg-color);
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, #5c43f6, #bc61f3);
+  min-width: 163px;
+}
+
+.btn--rounded {
+  border-radius: 10px;
+}
+
+.btn--positioned {
+  position: absolute;
+  bottom: -25px;
+}
+
+/* размеры кнопок */
+.btn--size-s {
+  min-width: 165px;
+}
+
+.btn--size-m {
+  min-width: 200px;
+}
+
+.btn--size-l {
+  min-width: 400px;
+}
+
+

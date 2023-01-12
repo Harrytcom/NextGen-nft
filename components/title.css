@@ -1,0 +1,26 @@
+.title {
+  font-weight: 900;
+  line-height: 120%;
+  color: var(--secondary-text-color);
+  letter-spacing: .03em;
+  text-transform: capitalize;
+}
+
+.title--h1 {
+  font-size: 6rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+}
+
+.title--h2 {
+  font-size: 3.5rem;
+  color: var(--secondary-text-color);
+}
+
+.title--h3 {
+  font-size: 1.375rem;
+}
+
+.title--light {
+  color: #F2F2F2;
+  font-weight: 800;
+}

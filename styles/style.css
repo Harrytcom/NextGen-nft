@@ -1,2 +1,10 @@
 @import url('./reset.css');
+@import url('./variables.css');
 @import url('./common.css');
+@import url('/components/button.css');
+@import url('/components/title.css');
+@import url('/components/text.css');
+@import url('/components/social.css');
+@import url('/components/card.css');
+@import url('/components/creator.css');
+@import url('/components/collection.css');
