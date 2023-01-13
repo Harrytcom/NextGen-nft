@@ -23,10 +23,10 @@
   color: var(--primary-text-color);
 }
 
-.btn--block {
+/* .btn--block {
   display: flex;
   width: 100%;
-}
+} */
 
 .btn--colored {
   background: linear-gradient(180deg, #5c43f6 0%, #bc61f3 100%);
@@ -61,5 +61,3 @@
 .btn--size-l {
   min-width: 400px;
 }
-
-
