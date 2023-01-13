@@ -21,3 +21,8 @@ body {
 .border-gradient-purple {
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
+
+.wrapper {
+  max-width: 1660px;
+  margin: 0 auto;
+}

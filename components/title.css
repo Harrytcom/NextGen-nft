@@ -3,7 +3,7 @@
   line-height: 120%;
   color: var(--secondary-text-color);
   letter-spacing: .03em;
-  text-transform: capitalize;
+  text-transform: var(--primary-text-transform);
 }
 
 .title--h1 {
