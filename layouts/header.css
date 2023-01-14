@@ -20,3 +20,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.header__navigation-links li:not(:last-child) {
+  margin-right: 56px;
+}
