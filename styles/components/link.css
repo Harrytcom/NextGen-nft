@@ -1,0 +1,15 @@
+.link {
+  font-size: 1.1875rem;
+  font-weight: 400;
+  text-decoration: underline;
+  transition: color var(--primary-transition);
+}
+
+.link:hover {
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+
+.link:visited {
+  color: var(--primary-text-color);
+}

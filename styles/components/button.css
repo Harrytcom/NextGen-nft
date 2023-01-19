@@ -1,0 +1,57 @@
+/* группировка кнопок */
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* стили для кнопок по отдельности*/
+.btn {
+  display: inline-flex;
+  min-width: 120px;
+  min-height: 53px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 120%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 40px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  text-transform: var(--primary-text-transform);
+  cursor: pointer;
+}
+
+.btn--block {
+  display: flex;
+  width: 100%;
+}
+
+.btn--colored {
+  background: linear-gradient(180deg, var(--primary-gradient-color), transparent) var(--secondary-gradient-color);
+  transition: background-color .6s;
+}
+
+.btn--colored:hover, .btn--colored:focus {
+  background: linear-gradient(180deg, var(--secondary-gradient-color), transparent) var(--primary-gradient-color);
+  transition: background-color .6s;
+}
+
+.btn--outline {
+  background: var(--primary-bg-color);
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, var(--secondary-gradient-color), var(--primary-gradient-color));
+  transition: border-image-source .6s;
+}
+
+.btn--outline:hover {
+  background: var(--primary-bg-color);
+  border-image-source: linear-gradient(to top, var(--secondary-gradient-color), var(--primary-gradient-color));
+  transition: border-image-source .6s;
+}
+
+.btn--size-tall {
+  min-height: 61px;
+}

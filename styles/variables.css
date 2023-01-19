@@ -1,7 +1,10 @@
 :root {
+  /* background */
   --primary-bg-color: #04040c;
   --secondary-bg-color: rgba(134, 155, 223, .14);
+  /* --secondary-bg-color_hover: rgba(134, 155, 223, .32); */
 
+  /* typography */
   --primary-text-color: #f0f0f0;
   --secondary-text-color: #f2f2f2;
   --accent-text-color: #bc61f3;
@@ -9,8 +12,14 @@
   --primary-font-family: 'Montserrat', sans-serif;
   --primary-text-transform: capitalize; /* перенести в title & button*/
   
+  /* border colors */
   --primary-border-color: rgba(83, 84, 136, .4);
   --primary-border: solid 2px var(--primary-border-color);
+
+  /* gradient colors */
+  --primary-gradient-color: #5c43f6;
+  --secondary-gradient-color: #bc61f3;
+
   /* border: 4px solid var(--primary-border-color); */
 
   /* цвет в переменную */

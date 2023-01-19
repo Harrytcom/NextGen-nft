@@ -1,16 +1,15 @@
 @import url('./reset.css');
-@import url('./variables.css');
 @import url('./common.css');
-@import url('../components/button.css');
-@import url('../components/title.css');
-@import url('../components/text.css');
-@import url('../components/social.css');
-@import url('../components/card.css');
-@import url('../components/creator.css');
-@import url('../components/collection.css');
-@import url('../components/avatar.css');
-@import url('../components/link.css');
-
-@import url('../layouts/header.css');
-
-@import url('../sections/promo.css');
+@import url('./variables.css');
+@import url('./components/button.css');
+@import url('./components/title.css');
+@import url('./components/text.css');
+@import url('./components/social.css');
+@import url('./components/card.css');
+@import url('./components/creator.css');
+@import url('./components/collection.css');
+@import url('./components/avatar.css');
+@import url('./components/link.css');
+@import url('./layouts/header.css');
+@import url('./sections/promo.css');
+@import url('./sections/subscribe.css');

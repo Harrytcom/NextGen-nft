@@ -1,0 +1,26 @@
+
+/* стили для списа карточек */
+.creators {
+  display: flex;
+  flex-direction: row;
+}
+
+/* стили для creator-card */
+.creator-card {
+  border-radius: 10px;
+  position: relative;
+}
+
+.creator-card:not(:last-child) {
+  margin-right: 20px;
+}
+
+.creator-card__image {
+  filter: drop-shadow(0px 4px 44px rgba(255, 255, 255, .08));
+  margin: 50px 35px 15px 35px;
+}
+
+.creator-card__btn {
+  position: absolute;
+  bottom: -25px;
+}

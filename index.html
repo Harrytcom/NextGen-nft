@@ -8,31 +8,31 @@
     <title>NextGen</title>
   </head>
   <body>
-    <a class="navigation" href="./ui-kit.html">временная ссылка на ui-kit</a>
+    <a class="navigation" href="./ui-kit.html">ui-kit</a>
     
     <header class="header wrapper">
-      <nav class="header__navigation">
+      <nav class="navigation">
         <img src="./img/nextgen logo.svg" alt="" class="logo">
-        <ul class="header__navigation-links">
-          <li>
-            <a class="navigation-link link title title--h3" href="#">Home</a>
+        <ul class="navigation__links-group">
+          <li class="navigation__links-item">
+            <a class="navigation__link title title--s" href="#">Home</a>
           </li>
-          <li>
-            <a class="navigation-link link title title--h3" href="#">Marketplace</a>
+          <li class="navigation__links-item">
+            <a class="navigation__link title title--s" href="#">Marketplace</a>
           </li>
-          <li>
-            <a class="navigation-link link title title--h3" href="#">Artist</a>
+          <li class="navigation__links-item">
+            <a class="navigation__link title title--s" href="#">Artist</a>
           </li>
-          <li>
-            <a class="navigation-link link title title--h3" href="#">Community</a>
+          <li class="navigation__links-item">
+            <a class="navigation__link title title--s" href="#">Community</a>
           </li>
         </ul>
         <ul class="btn-group">
           <li class="btn-group__item">
-            <a class="btn btn--size-s btn--colored" href="#">Log In</a>
+            <a class="btn btn--colored" href="#">Log In</a>
           </li>
           <li class="btn-group__item">
-            <a class="btn btn--size-s  btn--solid btn--rounded" href="#">Sign Up</a>
+            <a class="btn btn--outline btn--rounded" href="#">Sign Up</a>
           </li>
         </ul>
       </nav>
@@ -41,27 +41,37 @@
     <main class="layout">
       <section class="promo wrapper">
         <div class="promo__content">
-          <h1 class="title title--h1">Best NFTs Marketplace.</h1>
-          <p class="text-paragraph">Ultrices eget pretium sit euismod mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
+          <h1 class="title title--l">Best NFTs Marketplace.</h1>
+          <p class="text-body">Ultrices eget pretium sit euismod mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
           <ul class="btn-group">
             <li class="btn-group__item">
-              <a class="btn btn--size-m btn--colored" href="#">Get Started</a>
+              <a class="btn btn--colored" href="#">Get Started</a>
             </li>
             <li class="btn-group__item">
-              <a class="btn btn--size-m  btn--solid btn--rounded" href="#">Create NFTs</a>
+              <a class="btn btn--outline btn--rounded" href="#">Create NFTs</a>
             </li>
           </ul>
         </div>
         <div class="promo__image"></div>
       </section>
-      <section class="partners partners__wrapper">
-        <img src="./img/" alt="" class="partners__item">
-      </section>
+      <section class="partners partners__wrapper"></section>
       <section class="collections collections__wrapper"></section>
       <section class="top-creators top-creators__wrapper"></section>
-      <section class="subscribe subscribe__wrapper"></section>
+
+      <section class="subscribe wrapper">
+        <div class="subscribe__image"></div>
+        <div class="subscribe__content">
+          <div class="subscribe__title title title--m">Subscribe And get Latest news update about NFTs.</div>
+          <div class="subscribe__description text-body">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</div>
+          <div class="input-subscribe">
+            <input type="email" placeholder="Write your email here">
+            <a class="btn btn--colored btn--size-tall" href="#">Subscribe</a>
+          </div>
+        </div>
+      </section>
+
       <section class="collections collections__wrapper"></section>
     </main>
     <footer class="footer footer__wrapper"></footer>
   </body>
-</html> 
+</html>

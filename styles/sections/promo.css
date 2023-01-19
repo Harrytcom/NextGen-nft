@@ -1,0 +1,19 @@
+.promo {
+  display: flex;
+  flex-direction: row;
+}
+
+.promo__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promo__image {
+  background: url('../../img/scull.svg') rgba(134, 155, 223, .08);
+  min-width: 911px;
+  height: 879px;
+  border: 4px solid rgba(83, 84, 136, .11);
+  border-radius: 50%;
+  /* background: radial-gradient(48.77% 72.07% at 50% 50%, #FFFFFF 0%, rgba(0, 0, 0, 0) 100%)  */
+}

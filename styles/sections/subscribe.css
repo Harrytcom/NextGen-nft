@@ -1,0 +1,16 @@
+.subscribe {
+  display: flex;
+}
+
+.subscribe__image {
+  background: url('../../img/tri-d-RCrDnjfnNtE-unsplash.svg');
+  width: 616px;
+  height: 781px;
+}
+
+.subscribe__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
