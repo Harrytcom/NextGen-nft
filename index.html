@@ -13,18 +13,18 @@
     <header class="header wrapper">
       <nav class="navigation">
         <img src="./img/nextgen logo.svg" alt="" class="logo">
-        <ul class="navigation__links-group">
-          <li class="navigation__links-item">
-            <a class="navigation__link title title--s" href="#">Home</a>
+        <ul class="main-navigation">
+          <li class="main-navigation__item">
+            <a class="main-navigation__link title title--s" href="#">Home</a>
           </li>
-          <li class="navigation__links-item">
-            <a class="navigation__link title title--s" href="#">Marketplace</a>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link title title--s" href="#">Marketplace</a>
           </li>
-          <li class="navigation__links-item">
-            <a class="navigation__link title title--s" href="#">Artist</a>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link title title--s" href="#">Artist</a>
           </li>
-          <li class="navigation__links-item">
-            <a class="navigation__link title title--s" href="#">Community</a>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link title title--s" href="#">Community</a>
           </li>
         </ul>
         <ul class="btn-group">
@@ -64,8 +64,11 @@
           <div class="subscribe__title title title--m">Subscribe And get Latest news update about NFTs.</div>
           <div class="subscribe__description text-body">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</div>
           <div class="input-subscribe">
-            <input type="email" placeholder="Write your email here">
-            <a class="btn btn--colored btn--size-tall" href="#">Subscribe</a>
+            <form>
+              <label for="subscribe" class="sr-only">Write your email here</label>
+              <input id="subscribe" type="email" placeholder="Write your email here" />
+            </form>
+            <button type="submit" class="btn btn--colored btn--size-tall">Subscribe</button>
           </div>
         </div>
       </section>

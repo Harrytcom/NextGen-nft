@@ -35,7 +35,6 @@
 
 .btn--colored:hover, .btn--colored:focus {
   background: linear-gradient(180deg, var(--secondary-gradient-color), transparent) var(--primary-gradient-color);
-  transition: background-color .6s;
 }
 
 .btn--outline {
@@ -49,7 +48,6 @@
 .btn--outline:hover {
   background: var(--primary-bg-color);
   border-image-source: linear-gradient(to top, var(--secondary-gradient-color), var(--primary-gradient-color));
-  transition: border-image-source .6s;
 }
 
 .btn--size-tall {

@@ -1,18 +1,16 @@
-
-/* стили для списа карточек */
+/* стили для списка карточек */
 .creators {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* стили для creator-card */
 .creator-card {
-  border-radius: 10px;
   position: relative;
-}
-
-.creator-card:not(:last-child) {
-  margin-right: 20px;
+  min-height: 309px;
+  border-radius: 10px;
 }
 
 .creator-card__image {

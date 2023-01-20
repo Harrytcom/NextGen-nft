@@ -8,12 +8,3 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
   width: 400px;
 }
-
-/* размеры карточек */
-.card--size-m {
-  min-height: 309px;
-}
-
-.card--size-l {
-  min-height: 556px;
-}

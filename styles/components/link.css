@@ -2,12 +2,13 @@
   font-size: 1.1875rem;
   font-weight: 400;
   text-decoration: underline;
+  color: var(--primary-text-color);
   transition: color var(--primary-transition);
 }
 
 .link:hover {
-  color: var(--accent-text-color);
   text-decoration: none;
+  color: var(--accent-text-color);
 }
 
 .link:visited {
