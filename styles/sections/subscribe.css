@@ -14,3 +14,40 @@
   justify-content: center;
   width: 45%;
 }
+
+.input__subscribe {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  min-height: 89px;
+  margin: 0;
+  width: 100%;
+  color: rgba(240, 240, 240, .7);
+  background-color: transparent;
+  padding: 0 40px;
+}
+
+.input__subscribe:focus {
+  outline: none;
+ }
+
+  /* input::-webkit-input-placeholder {color:#44c02b;}
+  input::-moz-placeholder          {color:#2bc0b4;}
+  input::-ms-input-placeholder     {color:#69c02b;}
+  input::placeholder               {color: rgba(240, 240, 240, .7);} */
+
+.form {
+  display: flex;
+  align-items: center;
+  background: var(--secondary-bg-color);
+  border-radius: 10px;
+  color: rgba(240, 240, 240, .7);
+  border: var(--primary-border);
+ }
+
+ .form-btn {
+  margin: 15px;
+  font-family: inherit;
+  border: none;
+ }

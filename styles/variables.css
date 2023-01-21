@@ -14,7 +14,7 @@
   
   /* border colors */
   --primary-border-color: rgba(83, 84, 136, .4);
-  --primary-border: solid 2px var(--primary-border-color);
+  --primary-border: 2px solid var(--primary-border-color);
 
   /* gradient colors */
   --primary-gradient-color: #5c43f6;
