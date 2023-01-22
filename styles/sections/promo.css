@@ -10,7 +10,7 @@
 }
 
 .promo__image {
-  background: url('../../img/scull.svg') rgba(134, 155, 223, .08);
+  background: url('../../img/big-scull.svg') rgba(134, 155, 223, .08);
   min-width: 911px;
   height: 879px;
   border: 4px solid rgba(83, 84, 136, .11);
