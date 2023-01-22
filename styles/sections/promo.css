@@ -17,3 +17,10 @@
   border-radius: 50%;
   /* background: radial-gradient(48.77% 72.07% at 50% 50%, #FFFFFF 0%, rgba(0, 0, 0, 0) 100%)  */
 }
+
+.promo--title {
+  color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text; /* invalid property name */
+	background-image: radial-gradient(#db8cff, #9daeff);
+}

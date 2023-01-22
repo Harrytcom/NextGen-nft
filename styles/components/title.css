@@ -8,15 +8,10 @@
 
 .title--l {
   font-size: 6rem;
-  color: transparent;    
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: radial-gradient(#db8cff, #9daeff);
 }
 
 .title--m {
   font-size: 3.5rem;
-  color: var(--secondary-text-color);
 }
 
 .title--s {
@@ -24,6 +19,5 @@
 }
 
 .title--light {
-  color: #F2F2F2;
   font-weight: 800;
 }
