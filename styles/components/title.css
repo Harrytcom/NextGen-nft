@@ -6,6 +6,7 @@
   text-transform: var(--primary-text-transform);
 }
 
+/* title sizes */
 .title--l {
   font-size: 6rem;
 }

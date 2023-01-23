@@ -1,8 +1,6 @@
 .link {
-  font-size: 1.1875rem;
-  font-weight: 400;
   text-decoration: underline;
-  color: var(--primary-text-color);
+  color: inherit;
   transition: color var(--primary-transition);
 }
 
@@ -12,5 +10,5 @@
 }
 
 .link:visited {
-  color: var(--primary-text-color);
+  /* color: var(--primary-text-color); */
 }

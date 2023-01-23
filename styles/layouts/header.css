@@ -36,8 +36,11 @@
 }
 
 .main-navigation__link:hover {
-  font-weight: 500;
   color: var(--accent-text-color);
+}
+
+.main-navigation__link--active {
+  font-weight: 500;
 }
 
 .main-navigation__link::before {
