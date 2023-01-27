@@ -1,38 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800;900&display=swap');
 
-.navigation {
-  font-size: 50px;
-  color: white;
-}
-
 body {
   background: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
   font-style: normal;
-}
-
-.border-gradient {
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-}
-
-.border-gradient-purple {
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-}
-
-.wrapper {
-  max-width: 1660px;
-  margin: 0 auto;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  border: 0;
 }

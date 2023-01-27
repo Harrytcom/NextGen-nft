@@ -4,77 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./styles/style.css">
     <title>NextGen</title>
   </head>
   <body>
-    <a class="navigation" href="./ui-kit.html">ui-kit</a>
-    
-    <header class="header wrapper">
-      <nav class="navigation">
-        <img src="./img/nextgen-logo.svg" alt="nextgen logo" class="logo">
-        <ul class="main-navigation">
-          <li class="main-navigation__item">
-            <a class="main-navigation__link" href="#">Home</a>
-          </li>
-          <li class="main-navigation__item">
-            <a class="main-navigation__link" href="#">Marketplace</a>
-          </li>
-          <li class="main-navigation__item">
-            <a class="main-navigation__link" href="#">Artist</a>
-          </li>
-          <li class="main-navigation__item">
-            <a class="main-navigation__link" href="#">Community</a>
-          </li>
-        </ul>
-        <ul class="btn-group">
-          <li class="btn-group__item">
-            <a class="btn btn--colored" href="#">Log In</a>
-          </li>
-          <li class="btn-group__item">
-            <a class="btn btn--outline btn--rounded" href="#">Sign Up</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
-    <main class="layout">
-      <section class="promo wrapper">
-        <div class="promo__content">
-          <h1 class="title title--l promo--title">Best NFTs Marketplace.</h1>
-          <p class="text-body">Ultrices eget pretium sit euismod mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
-          <ul class="btn-group">
-            <li class="btn-group__item">
-              <a class="btn btn--colored" href="#">Get Started</a>
+    <!-- LAYOUT -->
+    <div class="layout"> 
+
+      <!-- HEADER   -->
+      <header class="layout__header header">
+        <nav class="header__inner container">
+          <img src="./img/nextgen-logo.svg" alt="nextgen logo" class="logo">
+          <ul class="main-navigation">
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Home</a>
             </li>
-            <li class="btn-group__item">
-              <a class="btn btn--outline btn--rounded" href="#">Create NFTs</a>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Marketplace</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Artist</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Community</a>
             </li>
           </ul>
-        </div>
-        <div class="promo__image"></div>
-      </section>
-      <section class="partners partners__wrapper"></section>
-      <section class="collections collections__wrapper"></section>
-      <section class="top-creators top-creators__wrapper"></section>
+          <ul class="btn-group">
+            <li class="btn-group__item">
+              <a class="btn btn--colored" href="#">Log In</a>
+            </li>
+            <li class="btn-group__item">
+              <a class="btn btn--outline btn--rounded" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-      <section class="subscribe wrapper">
-        <div class="subscribe__image"></div>
-        <div class="subscribe__content">
-          <div class="subscribe__title title title--m">Subscribe And get Latest news update about NFTs.</div>
-          <div class="subscribe__description text-body">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</div>
-         
-            <form class="form">
-              <label for="subscribe" class="sr-only">Write your email here</label>
-              <input id="subscribe" class="input input__subscribe" type="email" placeholder="Write your email here" />
-              <button type="submit" class="btn btn--colored btn--size-tall form-btn">Subscribe</button>
-            </form>
+      <!-- MAIN -->
+      <main class="layout__main">
 
-        </div>
-      </section>
+        <!-- PROMO SECTION -->
+        <section class="promo container">
+          <div class="promo__content">
+            <h1 class="title title--l promo--title">Best NFTs Marketplace.</h1>
+            <p class="text-body">Ultrices eget pretium sit euismod mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
+            <ul class="btn-group">
+              <li class="btn-group__item">
+                <a class="btn btn--colored" href="#">Get Started</a>
+              </li>
+              <li class="btn-group__item">
+                <a class="btn btn--outline btn--rounded" href="#">Create NFTs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="promo__image"></div>
+        </section>
 
-      <section class="collections collections__wrapper"></section>
-    </main>
-    <footer class="footer footer__wrapper"></footer>
+        <!-- PARTNERS SECTION -->
+        <section class="partners"></section>
+
+        <!-- SLIDER SECTION -->
+        <section class="nft-slider container">
+          <h3 class="nft-slider__title title title--m">Collect some NFTs</h3>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="nft-card">
+                  <img class="nft-card__image" src="./img/lightning-axe.svg" alt="">
+                  <div class="card-holder">
+                    <div class="card-holder__description">
+                      <div class="card-holder__lot">
+                        <div class="card-holder__lot-name">Lighting Axe</div>
+                        <div class="card-holder__lot-price">0.36 <span>eth</span></div>
+                      </div>
+                      <div class="card-holder__creator">
+                        <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/8machine-face.svg">
+                        <div class="card-holder__creator-name">Loura chin</div>
+                      </div>
+                    </div>
+                    <a class="btn btn--block btn--colored btn--rounded" href="#">Place a Bid</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-container">
+                  <img src="./img/skeleton-head.svg" alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-container">
+                  <img src="./img/hard-breathe.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+        <!-- TOP CREATORS SECTION -->
+        <section class="top-creators"></section>
+
+        <!-- SUBSCRIBE SECTION -->
+        <section class="subscribe container">
+          <div class="subscribe__image"></div>
+          <div class="subscribe__content">
+            <div class="subscribe__title title title--m">Subscribe And get Latest news update about NFTs.</div>
+            <div class="subscribe__description text-body">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</div>
+              <form class="subscribe-form">
+                <label for="subscribe" class="sr-only">Write your email here</label>
+                <input id="subscribe" class="subscribe-form__input" type="email" placeholder="Write your email here" />
+                <button type="submit" class="btn btn--colored btn--size-tall subscribe-form__btn">Subscribe</button>
+              </form>
+          </div>
+        </section>
+
+        <!-- COLLECTIONS SECTION -->
+        <section class="collections"></section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="layout__footer footer">
+          <div class="footer__content container">content</div>
+          <div class="footer__copyrights">
+            <div class="container">
+              copyrights
+            </div>
+          </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

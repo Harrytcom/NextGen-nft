@@ -3,7 +3,7 @@
 }
 
 .subscribe__image {
-  background: url('../../img/tri-d-chains.svg');
+  background: url('../../img/tri-d-chains.svg') no-repeat;
   width: 616px;
   height: 781px;
 }
@@ -15,7 +15,7 @@
   width: 45%;
 }
 
-.input__subscribe {
+.subscribe-form__input {
   font-family: inherit;
   font-size: 1.1875rem;
   line-height: inherit;
@@ -28,7 +28,7 @@
   padding: 0 40px;
 }
 
-.input__subscribe:focus {
+.subscribe-form__input:focus {
   outline: none;
  }
 
@@ -37,7 +37,7 @@
   input::-ms-input-placeholder     {color:#69c02b;}
   input::placeholder               {color: rgba(240, 240, 240, .7);} */
 
-.form {
+.subscribe-form {
   display: flex;
   align-items: center;
   background: var(--secondary-bg-color);
@@ -46,8 +46,6 @@
   border: var(--primary-border);
  }
 
- .form-btn {
+ .subscribe-form__btn {
   margin: 15px;
-  font-family: inherit;
-  border: none;
  }

@@ -21,11 +21,16 @@
   color: var(--primary-text-color);
   text-transform: var(--primary-text-transform);
   cursor: pointer;
+  border: none;
 }
 
 .btn--block {
   display: flex;
   width: 100%;
+}
+
+.btn--rounded {
+  border-radius: 10px;
 }
 
 .btn--colored {

@@ -1,6 +1,7 @@
 @import url('./reset.css');
 @import url('./common.css');
 @import url('./variables.css');
+@import url('./helpers.css');
 @import url('./components/button.css');
 @import url('./components/title.css');
 @import url('./components/text.css');
@@ -10,6 +11,10 @@
 @import url('./components/collection.css');
 @import url('./components/avatar.css');
 @import url('./components/link.css');
-@import url('./layouts/header.css');
+@import url('./components/main-navigation.css');
 @import url('./sections/promo.css');
 @import url('./sections/subscribe.css');
+@import url('./sections/nft-slider.css');
+@import url('./layouts/header.css');
+@import url('./layouts/layout.css');
+@import url('./layouts/footer.css');
