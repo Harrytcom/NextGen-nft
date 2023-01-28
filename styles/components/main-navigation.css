@@ -14,7 +14,7 @@
   letter-spacing: 0;
   text-decoration: none;
   color: var(--secondary-text-color);
-  text-transform: var(--primary-text-transform);
+  /* text-transform: var(--primary-text-transform); */
   transition: color var(--primary-transition);
   z-index: 1;
 }
