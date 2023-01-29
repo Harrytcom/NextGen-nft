@@ -1,5 +1,10 @@
 .partners {
+  padding-bottom: 190px;
+}
+
+.partners__bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* margin: 140px 0 190px; */
 }

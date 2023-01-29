@@ -1,6 +1,7 @@
 .promo {
   display: flex;
   flex-direction: row;
+  padding-bottom: 145px;
 }
 
 .promo__content {
