@@ -4,5 +4,4 @@ body {
   background: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
-  font-style: normal;
 }
