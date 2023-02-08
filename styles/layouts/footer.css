@@ -17,17 +17,10 @@
   gap: 25px;
 }
 
-.footer__logo {
-  display: block;
-  width: 168px;
-  height: 44px;
-}
-
 .footer__nav {
   display: flex;
   flex-flow: row nowrap;
   gap: 9.375rem;
-  /* gap: 150px; */
 }
 
 .footer__title {

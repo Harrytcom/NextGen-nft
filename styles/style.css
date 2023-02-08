@@ -2,6 +2,9 @@
 @import url('./common.css');
 @import url('./variables.css');
 @import url('./helpers.css');
+@import url('./layouts/header.css');
+@import url('./layouts/layout.css');
+@import url('./layouts/footer.css');
 @import url('./components/button.css');
 @import url('./components/logo.css');
 @import url('./components/title.css');
@@ -17,6 +20,3 @@
 @import url('./sections/partners.css');
 @import url('./sections/nft-slider.css');
 @import url('./sections/subscribe.css');
-@import url('./layouts/header.css');
-@import url('./layouts/layout.css');
-@import url('./layouts/footer.css');
