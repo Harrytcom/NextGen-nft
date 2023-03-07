@@ -1,0 +1,8 @@
+.section-header {
+  text-align: center;
+}
+
+.section-header__text {
+  margin: 24px auto 0;
+  max-width: 700px;
+}

@@ -28,10 +28,6 @@
   color: #04040c;
 }
 
-.card-holder a {
-  margin: 24px;
-}
-
 .card-holder__description {
   margin: 24px;
 }
@@ -62,6 +58,11 @@
 
 .card-holder__creator-avatar {
   margin: 0 10px 0 0;
+}
+
+.card-holder__btn {
+  display: flex;
+  margin: 24px;
 }
 
 .swiper {

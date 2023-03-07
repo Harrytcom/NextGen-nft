@@ -14,7 +14,6 @@
   letter-spacing: 0;
   text-decoration: none;
   color: var(--secondary-text-color);
-  /* text-transform: var(--primary-text-transform); */
   transition: color var(--primary-transition);
   z-index: 1;
 }
@@ -25,6 +24,7 @@
 
 .main-navigation__link--active {
   font-weight: 500;
+  color: var(--accent-text-color);
 }
 
 .main-navigation__link::before {
@@ -39,7 +39,6 @@
   transition: .5s;
   opacity: 0;
   background: var(--accent-text-color);
-  /* background: #3a3653; */
 }
 
 .main-navigation__link:hover:before {

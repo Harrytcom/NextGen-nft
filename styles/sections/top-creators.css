@@ -1,0 +1,7 @@
+.top-creators__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  row-gap: 40px;
+  column-gap: 20px
+}
