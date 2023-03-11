@@ -1,6 +1,8 @@
 .subscribe {
   display: flex;
   gap: 20px;
+  padding-top: 65px;
+  padding-bottom: 60px;
 }
 
 .subscribe__image {

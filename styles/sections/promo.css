@@ -1,13 +1,16 @@
 .promo {
   display: flex;
   flex-direction: row;
-  padding-bottom: 145px;
+  padding-top: 45px;
+  padding-bottom: 70px;
 }
 
 .promo__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 70px;
+  padding-right: 40px;
 }
 
 .promo__image {
@@ -18,9 +21,17 @@
   border-radius: 50%;
 }
 
-.promo--title {
+.promo__title {
   color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text; /* invalid property name */
 	background-image: radial-gradient(#db8cff, #9daeff);
+}
+
+.promo__text {
+  margin-top: 30px;
+}
+
+.promo__btn-group {
+  margin-top: 60px;
 }

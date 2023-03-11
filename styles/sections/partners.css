@@ -1,9 +1,11 @@
 .partners {
-  padding-bottom: 190px;
+  padding-top: 70px;
+  padding-bottom: 95px;
 }
 
 .partners__bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
 }

@@ -8,16 +8,16 @@
 .collection-card {
   min-height: 556px;
   border-radius: 300px;
+  padding: 35px;
 }
 
 .collection-card__image {
   width: 330px;
   height: 330px;
-  margin: 35px;
 }
 
 .collection-card__description {
-  margin-bottom: 14px;
+  margin-top: 40px;
 }
 
 .collection-card__link {
@@ -26,4 +26,5 @@
   color: var(--accent-text-color);
   text-transform: capitalize;
   text-decoration: none;
+  margin-top: 14px;
 }

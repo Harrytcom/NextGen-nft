@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.nft-slider', {
 
   speed: 400,
   spaceBetween: 50,
@@ -15,4 +15,3 @@ const swiper = new Swiper('.swiper', {
 
   slidesPerView: 3,
 });
-

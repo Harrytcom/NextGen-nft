@@ -1,4 +1,9 @@
-.top-creators__list {
+.top-creators {
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+.top-creators-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

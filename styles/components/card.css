@@ -1,4 +1,3 @@
-/* общие стили карточки */
 .card {
   display: flex;
   flex-direction: column;
