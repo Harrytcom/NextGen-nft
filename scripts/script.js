@@ -3,13 +3,11 @@ const swiper = new Swiper('.nft-slider', {
   speed: 400,
   spaceBetween: 50,
 
-  // Optional parameters
   direction: 'horizontal',
   loop: true,
 
-  // If we need pagination
   pagination: {
-    el: '.swiper-pagination',
+    el: '.nft-slider__pagination',
     clickable: true,
   },
 

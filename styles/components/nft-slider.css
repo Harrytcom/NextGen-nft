@@ -1,0 +1,17 @@
+.nft-slider {
+  width: 100%;
+}
+
+.nft-slider .swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+  background-color: #d9d8e2;
+}
+
+.nft-slider .nft-slider__pagination {
+  bottom: 0;
+}
+
+.nft-slider .swiper-pagination-bullet:not(:last-child) {
+  margin-right: 20px;
+}
