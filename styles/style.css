@@ -11,8 +11,8 @@
 @import url('./components/text.css');
 @import url('./components/social.css');
 @import url('./components/card.css');
-@import url('./components/creator.css');
-@import url('./components/collection.css');
+@import url('./components/creator-card.css');
+@import url('./components/collection-card.css');
 @import url('./components/avatar.css');
 @import url('./components/link.css');
 @import url('./components/main-navigation.css');

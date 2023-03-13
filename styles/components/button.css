@@ -1,17 +1,15 @@
-/* группировка кнопок */
 .btn-group {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-/* стили для кнопок по отдельности*/
 .btn {
   display: inline-flex;
   min-width: 120px;
   min-height: 53px;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.1875rem;
   line-height: 120%;
   align-items: center;
   justify-content: center;
@@ -56,5 +54,5 @@
 }
 
 .btn--size-tall {
-  min-height: 61px;
+  min-height: 60px;
 }

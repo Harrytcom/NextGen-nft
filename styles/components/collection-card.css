@@ -1,10 +1,3 @@
-.collections {
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px; */
-}
-
 .collection-card {
   min-height: 556px;
   border-radius: 300px;
