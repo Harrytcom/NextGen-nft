@@ -64,7 +64,7 @@
 
         <!-- PARTNERS SECTION -->
         <section class="partners container section">
-          <ul class="partners__bar">
+          <ul class="partners-holder">
             <li>
               <img src="./img/minicoin.svg" alt="minicoin logo">
             </li>
@@ -83,61 +83,63 @@
           </ul>
         </section>
 
-        <!-- SLIDER SECTION -->
-        <section class="nft-section container section">
-          <h2 class="nft-section__title title title--m">Collect some NFTs</h2>
-          <div class="swiper nft-slider">
-            <div class="swiper-wrapper nft-slider__wrapper">
-              <div class="swiper-slide nft-slider__item">
-                <article class="nft-card">
-                  <img class="nft-card__image" src="./img/lightning-axe.jpg" srcset="./img/lightning-axe.jpg 1x, ./img/lightning-axe@2x.jpg 2x" alt="lightning axe">
-                  <div class="card-holder">
-                      <div class="card-holder__lot">
-                        <div class="card-holder__lot-name">Lighting Axe</div>
-                        <div class="card-holder__lot-price">0.36 <span class="card-holder__lot-currency">eth</span></div>
-                      </div>
-                      <div class="card-holder__creator">
-                        <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/8machine-face.jpg">
-                        <div class="card-holder__creator-name">Loura chin</div>
-                      </div>
-                    <a class="card-holder__btn btn btn--colored btn--rounded btn--block" href="#">Place a Bid</a>
-                  </div>
-                </article>
+        <!-- NFT SLIDER SECTION -->
+        <section class="nft-section section">
+          <div class="container">
+            <h2 class="nft-section__title title title--m">Collect some NFTs</h2>
+            <div class="swiper nft-slider">
+              <div class="swiper-wrapper nft-slider__wrapper">
+                <div class="swiper-slide nft-slider__item">
+                  <article class="nft-card">
+                    <img class="nft-card__image" src="./img/lightning-axe.jpg" srcset="./img/lightning-axe.jpg 1x, ./img/lightning-axe@2x.jpg 2x" alt="lightning axe">
+                    <div class="card-holder">
+                        <div class="card-holder__lot">
+                          <div class="card-holder__lot-name">Lighting Axe</div>
+                          <div class="card-holder__lot-price">0.36 <span class="card-holder__lot-currency">eth</span></div>
+                        </div>
+                        <div class="card-holder__creator">
+                          <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/8machine-face.jpg">
+                          <div class="card-holder__creator-name">Loura chin</div>
+                        </div>
+                      <a class="card-holder__btn btn btn--colored btn--rounded btn--block" href="#">Place a Bid</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide nft-slider__item">
+                  <article class="nft-card">
+                    <img class="nft-card__image" src="./img/skeleton-head.jpg" srcset="./img/skeleton-head.jpg 1x, ./img/skeleton-head@2x.jpg 2x" alt="skeleton head">
+                    <div class="card-holder">
+                        <div class="card-holder__lot">
+                          <div class="card-holder__lot-name">Skeleton head</div>
+                          <div class="card-holder__lot-price">0.29 <span class="card-holder__lot-currency">eth</span></div>
+                        </div>
+                        <div class="card-holder__creator">
+                          <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/uzunov-rostislav.svg">
+                          <div class="card-holder__creator-name">Kelvin glan</div>
+                        </div>
+                      <a class="card-holder__btn btn btn--colored btn--rounded btn--block" href="#">Place a Bid</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide nft-slider__item">
+                  <article class="nft-card">
+                    <img class="nft-card__image" src="./img/hard-breathe.jpg" srcset="./img/hard-breathe.jpg 1x, ./img/hard-breathe@2x.jpg 2x" alt="hard breathe">
+                    <div class="card-holder">
+                        <div class="card-holder__lot">
+                          <div class="card-holder__lot-name">Hard breath</div>
+                          <div class="card-holder__lot-price">0.22 <span class="card-holder__lot-currency">eth</span></div>
+                        </div>
+                        <div class="card-holder__creator">
+                          <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/simon-lee.svg">
+                          <div class="card-holder__creator-name">Glam lee</div>
+                        </div>
+                      <a class="card-holder__btn btn btn--colored btn--rounded btn--block" href="#">Place a Bid</a>
+                    </div>
+                  </article>
+                </div>
               </div>
-              <div class="swiper-slide nft-slider__item">
-                <article class="nft-card">
-                  <img class="nft-card__image" src="./img/skeleton-head.jpg" srcset="./img/skeleton-head.jpg 1x, ./img/skeleton-head@2x.jpg 2x" alt="skeleton head">
-                  <div class="card-holder">
-                      <div class="card-holder__lot">
-                        <div class="card-holder__lot-name">Skeleton head</div>
-                        <div class="card-holder__lot-price">0.29 <span class="card-holder__lot-currency">eth</span></div>
-                      </div>
-                      <div class="card-holder__creator">
-                        <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/uzunov-rostislav.svg">
-                        <div class="card-holder__creator-name">Kelvin glan</div>
-                      </div>
-                    <a class="card-holder__btn btn btn--colored btn--rounded btn--block" href="#">Place a Bid</a>
-                  </div>
-                </article>
-              </div>
-              <div class="swiper-slide nft-slider__item">
-                <article class="nft-card">
-                  <img class="nft-card__image" src="./img/hard-breathe.jpg" srcset="./img/hard-breathe.jpg 1x, ./img/hard-breathe@2x.jpg 2x" alt="hard breathe">
-                  <div class="card-holder">
-                      <div class="card-holder__lot">
-                        <div class="card-holder__lot-name">Hard breath</div>
-                        <div class="card-holder__lot-price">0.22 <span class="card-holder__lot-currency">eth</span></div>
-                      </div>
-                      <div class="card-holder__creator">
-                        <img class="card-holder__creator-avatar avatar avatar--size-xs" src="./img/simon-lee.svg">
-                        <div class="card-holder__creator-name">Glam lee</div>
-                      </div>
-                    <a class="card-holder__btn btn btn--colored btn--rounded btn--block" href="#">Place a Bid</a>
-                  </div>
-                </article>
-              </div>
+              <div class="swiper-pagination nft-slider__pagination"></div>
             </div>
-            <div class="swiper-pagination nft-slider__pagination"></div>
           </div>
         </section>
 

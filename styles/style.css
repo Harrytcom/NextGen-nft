@@ -11,6 +11,7 @@
 @import url('./components/text.css');
 @import url('./components/social.css');
 @import url('./components/card.css');
+@import url('./components/card-holder.css');
 @import url('./components/creator-card.css');
 @import url('./components/collection-card.css');
 @import url('./components/avatar.css');
@@ -19,7 +20,8 @@
 @import url('./components/section-header.css');
 @import url('./components/section.css');
 @import url('./components/nft-slider.css');
-@import url('./components/card-holder.css');
+@import url('./components/partners-holder.css');
+@import url('./sections/partners.css');
 @import url('./sections/promo.css');
 @import url('./sections/partners.css');
 @import url('./sections/nft-section.css');
