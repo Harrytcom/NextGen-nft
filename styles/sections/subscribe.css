@@ -1,15 +1,23 @@
 .subscribe {
   display: flex;
-  gap: 20px;
+  justify-content: flex-start;
   padding-top: 65px;
   padding-bottom: 60px;
 }
 
+.subscribe__inner {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .subscribe__image {
-  background: url('../../img/tri-d-chains.svg') no-repeat;
-  background-size: contain;
-  width: 675px;
-  height: 675px;
+  background: url('../../img/tri-d-chains.svg');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
 }
 
 .subscribe__content {

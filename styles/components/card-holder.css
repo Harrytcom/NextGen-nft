@@ -1,10 +1,13 @@
 .card-holder {
+  display: flex;
+  flex-direction: column;
   margin: -100px 40px 0;
-  /* width: 440px; */
+  width: calc(100% - 80px);
   background: #f2f2f2;
   border-radius: 24px;
   color: #04040c;
   padding: 25px;
+  flex-grow: 1;
 }
 
 .card-holder__lot {
@@ -34,10 +37,11 @@
   line-height: 120%;
   text-transform: capitalize;
   margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .card-holder__btn {
-  margin-top: 25px;
+  margin-top: auto;
 }
 
 .card-holder__creator-avatar {

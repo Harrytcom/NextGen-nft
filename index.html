@@ -46,50 +46,54 @@
       <main class="layout__main">
 
         <!-- PROMO SECTION -->
-        <section class="promo container section">
-          <div class="promo__content">
-            <h1 class="promo__title title title--l">Best NFTs Marketplace.</h1>
-            <p class="promo__text text-body">Ultrices eget pretium sit euismod mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
-            <ul class="promo__btn-group btn-group">
-              <li class="btn-group__item">
-                <a class="btn btn--colored" href="#">Get Started</a>
-              </li>
-              <li class="btn-group__item">
-                <a class="btn btn--outline btn--rounded" href="#">Create NFTs</a>
-              </li>
-            </ul>
+        <section class="promo section">
+          <div class="promo__inner container">
+            <div class="promo__content">
+              <h1 class="promo__title title title--l">Best NFTs Marketplace.</h1>
+              <p class="promo__text text-body">Ultrices eget pretium sit euismod mi id. In commodo auctor eget congue sit. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
+              <ul class="promo__btn-group btn-group">
+                <li class="btn-group__item">
+                  <a class="btn btn--colored" href="#">Get Started</a>
+                </li>
+                <li class="btn-group__item">
+                  <a class="btn btn--outline btn--rounded" href="#">Create NFTs</a>
+                </li>
+              </ul>
+            </div>
+            <div class="promo__image"></div>
           </div>
-          <div class="promo__image"></div>
         </section>
 
         <!-- PARTNERS SECTION -->
-        <section class="partners container section">
-          <ul class="partners-holder">
-            <li>
-              <img src="./img/minicoin.svg" alt="minicoin logo">
-            </li>
-            <li>
-              <img src="./img/blocktual.svg" alt="blocktual logo">
-            </li>
-            <li>
-              <img src="./img/nextplanet.svg" alt="nextplanet logo">
-            </li>
-            <li>
-              <img src="./img/jackpot.svg" alt="jackpot logo">
-            </li>
-            <li>
-              <img src="./img/topup.svg" alt="topup logo">
-            </li>
-          </ul>
+        <section class="partners section">
+          <div class="container">
+            <ul class="partners-holder">
+              <li>
+                <img src="./img/minicoin.svg" alt="minicoin logo">
+              </li>
+              <li>
+                <img src="./img/blocktual.svg" alt="blocktual logo">
+              </li>
+              <li>
+                <img src="./img/nextplanet.svg" alt="nextplanet logo">
+              </li>
+              <li>
+                <img src="./img/jackpot.svg" alt="jackpot logo">
+              </li>
+              <li>
+                <img src="./img/topup.svg" alt="topup logo">
+              </li>
+            </ul>
+          </div>
         </section>
 
         <!-- NFT SLIDER SECTION -->
         <section class="nft-section section">
           <div class="container">
             <h2 class="nft-section__title title title--m">Collect some NFTs</h2>
-            <div class="swiper nft-slider">
-              <div class="swiper-wrapper nft-slider__wrapper">
-                <div class="swiper-slide nft-slider__item">
+            <div class="nft-slider">
+              <div class="nft-slider__wrapper">
+                <div class="nft-slider__item">
                   <article class="nft-card">
                     <img class="nft-card__image" src="./img/lightning-axe.jpg" srcset="./img/lightning-axe.jpg 1x, ./img/lightning-axe@2x.jpg 2x" alt="lightning axe">
                     <div class="card-holder">
@@ -105,7 +109,7 @@
                     </div>
                   </article>
                 </div>
-                <div class="swiper-slide nft-slider__item">
+                <div class="nft-slider__item">
                   <article class="nft-card">
                     <img class="nft-card__image" src="./img/skeleton-head.jpg" srcset="./img/skeleton-head.jpg 1x, ./img/skeleton-head@2x.jpg 2x" alt="skeleton head">
                     <div class="card-holder">
@@ -121,7 +125,7 @@
                     </div>
                   </article>
                 </div>
-                <div class="swiper-slide nft-slider__item">
+                <div class="nft-slider__item">
                   <article class="nft-card">
                     <img class="nft-card__image" src="./img/hard-breathe.jpg" srcset="./img/hard-breathe.jpg 1x, ./img/hard-breathe@2x.jpg 2x" alt="hard breathe">
                     <div class="card-holder">
@@ -138,99 +142,109 @@
                   </article>
                 </div>
               </div>
-              <div class="swiper-pagination nft-slider__pagination"></div>
+              <div class="nft-slider__pagination">
+                <span class="nft-slider__pagination-bullet"></span>
+                <span class="nft-slider__pagination-bullet"></span>
+                <span class="nft-slider__pagination-bullet"></span>
+              </div>
             </div>
           </div>
         </section>
 
         <!-- TOP CREATORS SECTION -->
-        <section class="top-creators container section">
-          <header class="section-header section__header">
-            <h2 class="title title--m section-header__title">Top creators</h2>
-            <p class="text-body section-header__text">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
-          </header>
-          <ul class="top-creators-list">
-            <li>
-              <article class="creator-card">
-                <div class="creator-card__wrapper card">
-                  <img class="creator-card__image avatar avatar--size-m" src="./img/8machine-face.jpg" alt="">
-                  <p class="title title--s title--light">Loura chin</p>
-                  <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article class="creator-card">
-                <div class="creator-card__wrapper card">
-                  <img class="creator-card__image avatar avatar--size-m" src="./img/uzunov-rostislav.svg" alt="">
-                  <p class="title title--s title--light">Kelvin Glan</p>
-                  <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article class="creator-card">
-                <div class="creator-card__wrapper card">
-                  <img class="creator-card__image avatar avatar--size-m" src="./img/simon-lee.svg" alt="">
-                  <p class="title title--s title--light">Glam Lee</p>
-                  <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article class="creator-card">
-                <div class="creator-card__wrapper card">
-                  <img class="creator-card__image avatar avatar--size-m" src="./img/alex-sh.svg" alt="">
-                  <p class="title title--s title--light">Alameda</p>
-                  <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
-                </div>
-              </article>
-            </li>
-          </ul>
+        <section class="top-creators section">
+          <div class="container">
+            <header class="section-header section__header">
+              <h2 class="title title--m section-header__title">Top creators</h2>
+              <p class="text-body section-header__text">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
+            </header>
+            <ul class="top-creators-list card-list">
+              <li class="card-list__item">
+                <article class="creator-card">
+                  <div class="creator-card__wrapper card">
+                    <img class="creator-card__image avatar avatar--size-m" src="./img/8machine-face.jpg" alt="">
+                    <p class="title title--s title--light">Loura chin</p>
+                    <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
+                  </div>
+                </article>
+              </li>
+              <li class="card-list__item">
+                <article class="creator-card">
+                  <div class="creator-card__wrapper card">
+                    <img class="creator-card__image avatar avatar--size-m" src="./img/uzunov-rostislav.svg" alt="">
+                    <p class="title title--s title--light">Kelvin Glan</p>
+                    <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
+                  </div>
+                </article>
+              </li>
+              <li class="card-list__item">
+                <article class="creator-card">
+                  <div class="creator-card__wrapper card">
+                    <img class="creator-card__image avatar avatar--size-m" src="./img/simon-lee.svg" alt="">
+                    <p class="title title--s title--light">Glam Lee</p>
+                    <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
+                  </div>
+                </article>
+              </li>
+              <li class="card-list__item">
+                <article class="creator-card">
+                  <div class="creator-card__wrapper card">
+                    <img class="creator-card__image avatar avatar--size-m" src="./img/alex-sh.svg" alt="">
+                    <p class="title title--s title--light">Alameda</p>
+                    <a class="creator-card__btn btn btn--colored btn--rounded" href="#">View Details</a>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <!-- SUBSCRIBE SECTION -->
-        <section class="subscribe container section">
-          <div class="subscribe__image"></div>
-          <div class="subscribe__content">
-            <h2 class="subscribe__title title title--m">Subscribe And get Latest news update about NFTs.</h2>
-            <p class="subscribe__description text-body">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
-              <form class="subscribe-form">
-                <label for="subscribe" class="sr-only">Write your email here</label>
-                <input id="subscribe" class="subscribe-form__input" type="email" placeholder="Write your email here" />
-                <button type="submit" class="btn btn--colored btn--size-tall subscribe-form__btn">Subscribe</button>
-              </form>
+        <section class="subscribe section">
+          <div class="subscribe__inner container">
+            <div class="subscribe__image"></div>
+            <div class="subscribe__content">
+              <h2 class="subscribe__title title title--m">Subscribe And get Latest news update about NFTs.</h2>
+              <p class="subscribe__description text-body">In commodo auctor eget congue sit. Ultrices eget pretium sit euismod mi id. Risus, aliquam odio posuere ac in in nisl sed augue. Porta aenean egestas malesuada in pulvinar enim viverra.</p>
+                <form class="subscribe-form">
+                  <label for="subscribe" class="sr-only">Write your email here</label>
+                  <input id="subscribe" class="subscribe-form__input" type="email" placeholder="Write your email here" />
+                  <button type="submit" class="btn btn--colored btn--size-tall subscribe-form__btn">Subscribe</button>
+                </form>
+            </div>
           </div>
         </section>
 
         <!-- COLLECTIONS SECTION -->
-        <section class="collections container section">
-          <header class="section-header section__header">
-            <h2 class="title title--m section-header__title">NFTs collections</h2>
-            <p class="text-body section-header__text">Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue.</p>
-          </header>
-          <ul class="collection-list">
-            <li class="collection-card card">
-              <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-face.jpg" srcset="./img/8machine-face.jpg 1x, ./img/8machine-face@2x.jpg 2x" alt="face">
-              <p class="collection-card__description title title--s title--light">Broken collection</p>
-              <a class="collection-card__link" href="#">View collection</a>
-            </li>
-            <li class="collection-card card">
-              <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-triangle.jpg" srcset="./img/8machine-triangle.jpg 1x, ./img/8machine-triangle@2x.jpg 2x" alt="triangle">
-              <p class="collection-card__description title title--s title--light">Broken collection</p>
-              <a class="collection-card__link" href="#">View collection</a>
-            </li>
-            <li class="collection-card card">
-              <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-liquid.jpg" srcset="./img/8machine-liquid.jpg 1x, ./img/8machine-liquid@2x.jpg 2x" alt="liquid">
-              <p class="collection-card__description title title--s title--light">Broken collection</p>
-              <a class="collection-card__link" href="#">View collection</a>
-            </li>
-            <li class="collection-card card">
-              <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-cube.jpg" srcset="./img/8machine-cube.jpg 1x, ./img/8machine-cube@2x.jpg 2x" alt="cube">
-              <p class="collection-card__description title title--s title--light">Broken collection</p>
-              <a class="collection-card__link" href="#">View collection</a>
-            </li>
-          </ul>
+        <section class="collections section">
+          <div class="container">
+            <header class="section-header section__header">
+              <h2 class="title title--m section-header__title">NFTs collections</h2>
+              <p class="text-body section-header__text">Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue.</p>
+            </header>
+            <ul class="collection-list card-list">
+              <li class="collection-card card card-list__item">
+                <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-face.jpg" srcset="./img/8machine-face.jpg 1x, ./img/8machine-face@2x.jpg 2x" alt="face">
+                <p class="collection-card__description title title--s title--light">Broken collection</p>
+                <a class="collection-card__link" href="#">View collection</a>
+              </li>
+              <li class="collection-card card card-list__item">
+                <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-triangle.jpg" srcset="./img/8machine-triangle.jpg 1x, ./img/8machine-triangle@2x.jpg 2x" alt="triangle">
+                <p class="collection-card__description title title--s title--light">Broken collection</p>
+                <a class="collection-card__link" href="#">View collection</a>
+              </li>
+              <li class="collection-card card card-list__item">
+                <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-liquid.jpg" srcset="./img/8machine-liquid.jpg 1x, ./img/8machine-liquid@2x.jpg 2x" alt="liquid">
+                <p class="collection-card__description title title--s title--light">Broken collection</p>
+                <a class="collection-card__link" href="#">View collection</a>
+              </li>
+              <li class="collection-card card card-list__item">
+                <img class="collection-card__image avatar avatar--size-l" src="./img/8machine-cube.jpg" srcset="./img/8machine-cube.jpg 1x, ./img/8machine-cube@2x.jpg 2x" alt="cube">
+                <p class="collection-card__description title title--s title--light">Broken collection</p>
+                <a class="collection-card__link" href="#">View collection</a>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
 

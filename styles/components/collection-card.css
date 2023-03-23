@@ -5,8 +5,8 @@
 }
 
 .collection-card__image {
-  width: 330px;
-  height: 330px;
+  width: 100%;
+  /* height: 330px; */
 }
 
 .collection-card__description {

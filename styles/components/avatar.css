@@ -1,5 +1,6 @@
 .avatar {
   border-radius: 50%;
+
 }
 
 .avatar--size-xs {
@@ -13,6 +14,8 @@
 }
 
 .avatar--size-l {
-  width: 330px;
-  height: 330px;
+  /* width: 330px; */  
+  /* width: 100%; */
+  /* aspect-ratio: 1 / 1; */
+  /* height: 330px; */
 }
