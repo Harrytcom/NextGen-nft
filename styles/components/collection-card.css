@@ -1,8 +1,8 @@
 .collection-card {
-  /* min-height: 556px; */
   aspect-ratio: 10/14;
   border-radius: 300px;
   padding: 35px;
+  text-align: center;
 }
 
 .collection-card__image {
