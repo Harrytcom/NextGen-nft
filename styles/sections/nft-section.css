@@ -25,3 +25,7 @@
   aspect-ratio: 65 / 79;
   border-radius: 10px;
 }
+
+.nft-card__holder {
+  flex-grow: 1;
+}

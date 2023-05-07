@@ -1,6 +1,5 @@
 .collection-list {
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: row;
   justify-content: center;
-  gap: 20px;
 }
